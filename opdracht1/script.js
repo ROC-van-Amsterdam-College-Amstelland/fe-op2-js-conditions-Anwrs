@@ -1,25 +1,16 @@
-// A) maak 2 verschillende variabelen met twee willekeurige integers (zelf kiezen)
+$( document ).ready(function() {
+    console.log( "ready!" );
 
-// jouw code hierondeer-->> 
-var ;
-var ;
 
-// B) toon beide getallen op het scherm met document.getElementById('<jouw_gekozen_id>').innerHTML
+    var nummer1 = 12;
+    var nummer2 = 34;
+    var total = (nummer1) + (nummer2);
 
-// jouw code hieronder-->>
-document.getElementById
+    $(function() {
+        $("#main").html(total);
+    });
 
-// C) Vraag de gebruiker om een INPUT waarde door prompt() te gebruiken. 
-// Gebruik de prompt()-waarde om een variabelen te 'vullen'
+    var vraag1 = prompt("wat is 3+2?");
+        
 
-// jouw code hieronder-->>
-var ;
-var ;
-
-// D) Vergelijk de twee getallen met elkaar door gebruik te maken van conditions  if()
-
-// jouw code hieronder-->>
-if () {
-
-}
-
+});
