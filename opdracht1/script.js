@@ -1,16 +1,12 @@
-$( document ).ready(function() {
-    console.log( "ready!" );
+var getal1 = 23;
+var getal2 = 100;
 
+document.getElementById("main").innerHTML += getal1;
+document.getElementById("main").innerHTML += getal2;
 
-    var nummer1 = 12;
-    var nummer2 = 34;
-    var total = (nummer1) + (nummer2);
+var getal3 = prompt("Vul een getal in");
 
-    $(function() {
-        $("#main").html(total);
-    });
-
-    var vraag1 = prompt("wat is 3+2?");
-        
-
-});
+if(getal3 <= (getal1+getal2)){
+    document.getElementById("main").innerHTML = getal3;
+    alert("hij werkt");
+}
